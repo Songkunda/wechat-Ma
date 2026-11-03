@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# 敏感产物（合规：绝不入库）
+docs/analysis/raw/
+docs/analysis/raw-*.json
+docs/analysis/*.log
+docs/analysis/ghidra/
+*.rep/
+wechat_keys.json
+**/keys.json
+**/decrypted_db/
+*.db.decrypted
+decrypted_*.db
+*.sqlcipher
+agent.dylib
+
+# REA / 逆向中间产物
+**/*.pcode.txt
+**/*_evidence.json
+.rea/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

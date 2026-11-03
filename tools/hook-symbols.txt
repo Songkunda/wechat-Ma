@@ -1,0 +1,26 @@
+# ilink2 hook 目标符号（对 `nm -gU | c++filt` 输出做正则匹配）
+# 格式：<key>\t<regex>。key 会写进 profile 的 hooks 表；正则锚定 demangled 行尾。
+send_request_async	ilink::zidl_export::NetworkManager::SendRequestAsync\(ilink::pb_export::IlinkRequestInfo const&\)$
+send_request_async_cb	ilink::zidl_export::NetworkManager::SendRequestAsync\(ilink::pb_export::IlinkRequestInfo const&, std::__1::function
+send_request_async_nopb	ilink::zidl_export::NetworkManagerNoPB::SendRequestAsync\(std::__1::basic_string<char.*> const&\)$
+send_request_async_nopb_cb	ilink::zidl_export::NetworkManagerNoPB::SendRequestAsync\(std::__1::basic_string<char.*> const&, std::__1::function
+on_receive_notify	ilink::zidl_export::NetworkManager::OnReceiveNotify\(\)$
+on_receive_notify_nopb	ilink::zidl_export::NetworkManagerNoPB::OnReceiveNotify\(\)$
+on_receive_notify_event	ilink::zidl_export::NetworkManagerEvents::OnReceiveNotifyEvent\(unsigned int
+subscribe_notify	ilink::zidl_export::NetworkManager::SubscribeNotify\(std::__1::vector<unsigned int
+cloud_send_cgi	ilink::zidl_export::CloudSession::OnSendCloudCgiRequest\(\)$
+cloud_send_cgi_event	ilink::zidl_export::CloudSessionEvents::OnSendCloudCgiRequestEvent\(std::__1::basic_string
+ilink_context_new_manager	ilink::zidl_export::IlinkContext::NewNetworkManager\(
+ilink_context_nopb_new_manager	ilink::zidl_export::IlinkContextNoPB::NewNetworkManager\(
+app_session_new_manager	ilink::zidl_export::AppSession::NewNetworkManager\(\)$
+app_session_start_sync	ilink::zidl_export::AppSession::StartSync\(\)$
+app_session_disable_bypass	ilink::zidl_export::AppSession::DisableAppMsgBypass\(\)$
+singleton_session_new_manager	ilink::zidl_export::SingletonSession::NewNetworkManager\(\)$
+pb_requestinfo_new_instance	ilink::pb_export::IlinkRequestInfo::NewInstance\(\)$
+pb_requestinfo_classinfo	ilink::pb_export::IlinkRequestInfo::classInfo_
+pb_requestinfo_dynamic	ilink::pb_export::IlinkRequestInfo::dynamicClassInfo\(\)$
+pb_addmsg_new_instance	ilink::pb_export::IlinkAddMsgCmd::NewInstance\(\)$
+pb_addmsg_classinfo	ilink::pb_export::IlinkAddMsgCmd::classInfo_
+pb_addmsg_dynamic	ilink::pb_export::IlinkAddMsgCmd::dynamicClassInfo\(\)$
+pb_bypass_item_classinfo	ilink::pb_export::IlinkBypassMsgItem::classInfo_
+pb_bypass_list_classinfo	ilink::pb_export::IlinkBypassMsgList::classInfo_
